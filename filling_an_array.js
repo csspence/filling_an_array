@@ -8,4 +8,11 @@ For example, the following code will result in an array containing the numbers 0
 arr(5) // => [0,1,2,3,4]
 */
 
-const arr = N => [ /* the numbers 0 to N-1 */ ];
+const arr = (N) => {
+  const array = [];
+  for(let i = 0; i < N; i++) {
+    array.push(i);
+  }
+
+  return array;
+};
